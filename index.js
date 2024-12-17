@@ -153,8 +153,7 @@ subMenuEl.addEventListener('click', (event) => {
   event.returnValue = false;
   
   // If the clicked element is not an <a>, return
-  if (event.target.tagName !== 'A') return;
-
+  if (event.target.tagName !== 'A') return; 
   // Log the content of the submenu link clicked
   console.log(`Clicked on submenu item: ${event.target.textContent}`);
   
