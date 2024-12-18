@@ -6,9 +6,9 @@ var menuLinks = [
     { text: 'account', href: '/account' },
   ];
 
-// import "./styles.css";
 
-// Select and cache the <main> element in a variable named mainEl.
+
+
 //1
 let mainEl= document.querySelector('main');
 
